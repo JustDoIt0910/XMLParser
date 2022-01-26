@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XMLParser", "XMLParser\XMLParser.vcxproj", "{BAD26567-73B4-49FE-AE4C-CB60C4F3A181}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAD26567-73B4-49FE-AE4C-CB60C4F3A181}.Debug|x64.ActiveCfg = Debug|x64
+		{BAD26567-73B4-49FE-AE4C-CB60C4F3A181}.Debug|x64.Build.0 = Debug|x64
+		{BAD26567-73B4-49FE-AE4C-CB60C4F3A181}.Debug|x86.ActiveCfg = Debug|Win32
+		{BAD26567-73B4-49FE-AE4C-CB60C4F3A181}.Debug|x86.Build.0 = Debug|Win32
+		{BAD26567-73B4-49FE-AE4C-CB60C4F3A181}.Release|x64.ActiveCfg = Release|x64
+		{BAD26567-73B4-49FE-AE4C-CB60C4F3A181}.Release|x64.Build.0 = Release|x64
+		{BAD26567-73B4-49FE-AE4C-CB60C4F3A181}.Release|x86.ActiveCfg = Release|Win32
+		{BAD26567-73B4-49FE-AE4C-CB60C4F3A181}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9B26CAA-4BF0-42E7-9D68-7D8BF2E03419}
+	EndGlobalSection
+EndGlobal
