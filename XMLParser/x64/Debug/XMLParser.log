@@ -1,0 +1,50 @@
+﻿cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  array.c
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\array.c(45,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\array.c(68,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  test.c
+  xml.c
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xml.c(38,51): warning C4133: “=”: 从“text_ptr_t”到“attr_ptr_t”的类型不兼容
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xml.c(38,51): warning C4133: “=”: 从“attr_ptr_t”到“char *”的类型不兼容
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xml.c(56,32): warning C4133: “=”: 从“char *”到“XMLNode_text *”的类型不兼容
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xml.c(141,17): warning C4090: “return”: 不同的“const”限定符
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xml.c(147,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xml.c(148,14): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xml.c(170,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xml.c(200,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xml.c(287,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xml.c(310,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xml.c(346,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xml.c(361,25): warning C4090: “=”: 不同的“const”限定符
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xml.c(379,53): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xml.c(405,54): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xml.c(420,53): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xml.c(450,53): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xml.c(495,55): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xml.c(443,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xml.c(551,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xml.c(552,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xml.c(554,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xml.c(555,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xml.c(556,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xml.c(557,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  xpath.c
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xpath.c(16,33): warning C4133: “=”: 从“XPATHResult *”到“XMLNode_ptr”的类型不兼容
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xpath.c(87,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xpath.c(88,20): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xpath.c(89,21): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xpath.c(118,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xpath.c(122,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xpath.c(142,1): warning C4090: “初始化”: 不同的“const”限定符
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xpath.c(150,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xpath.c(169,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xpath.c(182,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xpath.c(279,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xpath.c(346,1): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xpath.c(365,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xpath.c(382,4): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  正在生成代码...
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xpath.c(190): warning C4715: “xpath_find”: 不是所有的控件路径都返回值
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xml.c(42): warning C4716: “new_node”: 必须返回一个值
+C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\XMLParser\xml.c(541): warning C4715: “parse_node”: 不是所有的控件路径都返回值
+  XMLParser.vcxproj -> C:\Users\just do it\Desktop\c-cpp\c-cpp\XMLParser\x64\Debug\XMLParser.exe
