@@ -23,8 +23,14 @@ int main()
     xml_free(root);
     return 0;
 }
-```
+``` 
 
+
+`parse_from_file(const char* filename)` 用以解析xml文件 
+
+`parse_from_string(const char* xml)` 用以解析xml字符串 
+
+二者返回文档树的根节点(在xml根节点上加了一个空父节点)
 
 
 ### xpath的查找结果以`Array*`形式返回，如果未查找到返回 NULL。
