@@ -66,3 +66,81 @@ Array 为动态(字符串)数组，支持已下操作:
 - //@attr 返回当前元素以及它所有后代元素中attr属性的值
 - `*` 匹配任意元素
 - @* 匹配任意属性
+
+### examples:
+### 1.
+```c
+#include "parser.h"
+
+int main()
+{
+    XMLNode_ptr root = parse_from_string("\
+<bookstore>\n\
+    <book category=\"CHILDREN\">\n\
+        <title>Harry Potter</title>\n\
+        <author>J K.Rowling</author>\n\
+        <year>2005 < / year >\n\
+        <price>29.99 </price>\n\
+    </book>\n\
+    <book category=\"WEB\">\n\
+        <title>Learning XML</title>\n\
+        <author>Erik T.Ray</author>\n\
+        <year>2003 </year>\n\
+        <price>39.95 </price>\n\
+    </book>\n\
+ </bookstore>");
+
+    Array* res = xpath("//book", root);
+    if (res == NULL)
+    {
+        printf("Not found\n");
+        return 0;
+    }
+    for (int i = 0; i < res->size; i++)
+        printf("%s\n", Get(res, i));
+ 
+    xml_free(root);
+    return 0;
+}
+```
+
+结果：
+```xml
+<book category="CHILDREN">
+        <title>Harry Potter</title>
+        <author>J K.Rowling</author>
+        <year>2005 < / year >
+        <price>29.99 </price>
+    </book>
+<book category="WEB">
+        <title>Learning XML</title>
+        <author>Erik T.Ray</author>
+        <year>2003 </year>
+        <price>39.95 </price>
+    </book>
+```
+
+### 2.
+```c
+Array* res = xpath("//book[2]", root);
+```
+
+结果：
+```xml
+<book category="WEB">
+        <title>Learning XML</title>
+        <author>Erik T.Ray</author>
+        <year>2003 </year>
+        <price>39.95 </price>
+    </book>
+```
+
+### 3.
+```c
+Array* res = xpath("//book[@category=WEB]/author/text()", root);
+```
+
+结果：
+```xml
+Erik T.Ray
+```
