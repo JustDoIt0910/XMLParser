@@ -325,10 +325,8 @@ Result find_parent(Result res)
 Array* xpath(const char* exp, XMLNode_ptr root)
 {
 	if (root == NULL)
-	{
-		printf("Error when parsing xml");
 		return NULL;
-	}
+
 	Result ResultSet = new_result();
 	ResultSet->element = root;
 	Array* arr = NULL;

@@ -155,6 +155,7 @@ XMLNode_ptr parse_from_string(const char* xml)
 	pointer = parse_node(pointer, root);
 	if (XML_PARSE_STATUS != XML_PARSE_SUCCESS)
 	{
+		printf("Error when parsing xml\n");
 		//释放所有内存
 		xml_free(root);
 		return NULL;
@@ -184,6 +185,7 @@ XMLNode_ptr parse_from_file(const char* filename)
 const char* parse_element_name(const char* pointer, char** elem_name)
 {
 	int len = 0;
+	pointer = skip(pointer);
 	const char* p = pointer;
 	while (*p != ' ' && *p != '>')
 	{
@@ -209,10 +211,7 @@ const char* parse_element_attr(const char* pointer, attr_ptr_t first)
 	first->prev = NULL;
 	pointer = parse_one_attr(pointer, first);
 	if (first->name == NULL) //没有属性或者解析出错，直接返回
-	{
-		free(first);
 		return pointer;
-	}
 
 	attr_ptr_t prev = first;
 	while (XML_PARSE_STATUS == XML_PARSE_SUCCESS)
